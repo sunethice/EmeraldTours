@@ -27,19 +27,31 @@ class AboutUs extends Component{
                     <div class="col-lg-4 h-100">
                         <img class="d-sm-none d-md-block w-100 h-100" src={aboutus} alt=""/>
                     </div>
-                    <div class="col-sm-12 col-lg-2">
+                    <div class="col-sm-12 col-lg-2 pt-4 pt-md-0">
                         <span class="h2">why book with us?</span>
-                            <ul class="aboutus-ul">
-                            <li class="text-left">Tailor Made Tours</li>
-                            <li>Over 50 years of Industry Experience</li>
-                            <li>South Asia’s First Carbon Neutral Fleet</li>
-                            <li>Public Liability Insurance of 3 Million</li>
-                            <li>Book your Transfers &amp; Excursions Online</li>
-                            <li>Value for Money</li>			
+                        <ul class="aboutus-ul pt-3 list-unstyled">
+                            <li class="text-left px-5 px-md-0 pb-2">
+                                <i class="fa fa-check"></i>&nbsp;Tailor Made Tours
+                            </li>
+                            <li class="text-left px-5 px-md-0 pb-2">
+                                <i class="fa fa-check"></i>&nbsp;Over 50 years of Industry Experience
+                            </li>
+                            <li class="text-left px-5 px-md-0 pb-2">
+                                <i class="fa fa-check"></i>&nbsp;South Asia’s First Carbon Neutral Fleet
+                            </li>
+                            <li class="text-left px-5 px-md-0 pb-2">
+                                <i class="fa fa-check"></i>&nbsp;Public Liability Insurance of 3 Million
+                            </li>
+                            <li class="text-left px-5 px-md-0 pb-2">
+                                <i class="fa fa-check"></i>&nbsp;Book your Transfers &amp; Excursions Online
+                            </li>
+                            <li class="text-left px-5 px-md-0 pb-2">
+                                <i class="fa fa-check"></i>&nbsp;Value for Money
+                            </li>			
                         </ul>
                     </div>
                 </div>
-                </div> 
+            </div> 
         );
     }
 }
