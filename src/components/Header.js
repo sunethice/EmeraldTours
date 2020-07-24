@@ -28,10 +28,10 @@ class Header extends Component{
             <Navbar className="sticky-top" expand="lg" style={{backgroundColor: '#012d6b'}}>
                 <Navbar.Collapse className="order-1 order-lg-0" id="basic-navbar-nav">
                     <Nav className="mr-auto">
+                        <Nav.Link className="px-3 text-white" href="#Packages">Home</Nav.Link>
                         <Nav.Link className="px-3 text-white" href="#Packages">Packages</Nav.Link>
                         <Nav.Link className="px-3 text-white" href="#Gallery">Gallery</Nav.Link>
                         <Nav.Link className="px-3 text-white" href="#Excursions">Excursions</Nav.Link>
-                        <Nav.Link className="px-3 text-white" href="#Blog">Blog</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Brand className="mx-lg-auto w-75" href="#home">
@@ -39,6 +39,7 @@ class Header extends Component{
                 </Navbar.Brand>
                 <Navbar.Collapse className="order-3" id="basic-navbar-nav">
                     <Nav className="ml-auto">
+                        <Nav.Link className="px-3 text-white" href="#Blog">Blog</Nav.Link>
                         <Nav.Link className="px-3 text-white text-nowrap" href="#Explore">Explore SriLanka</Nav.Link>
                         <Nav.Link className="px-3 text-white" href="#">SignIn</Nav.Link>
                         <Nav.Link className="btn inquire-btn px-3 text-black text-nowrap">Inquire Now</Nav.Link>
