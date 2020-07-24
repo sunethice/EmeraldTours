@@ -7,6 +7,7 @@ import Package from './components/Package';
 import Gallery from './components/Gallery';
 import Bespoke from './components/Bespoke';
 import OurTeam from './components/OurTeam';
+// import Testimonials from './components/Testimonials';
 
 import './App.css';
 
@@ -19,6 +20,7 @@ function App() {
         <Gallery></Gallery>
         <Package></Package>
         <Bespoke></Bespoke>
+        {/* <Testimonials></Testimonials> */}
         <OurTeam></OurTeam>
         <Footer></Footer>
     </div>
