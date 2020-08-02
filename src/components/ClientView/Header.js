@@ -1,8 +1,12 @@
 import React, { Component } from  'react';
-import { Link } from 'react-router-dom';
-import logo from '../img/logo1.png';
-import navIcon from '../img/hamburger.svg';
-import {Navbar, Nav, NavItem, NavDropdown, MenuItem} from 'react-bootstrap';
+import logo from '../../img/logo1.png';
+import navIcon from '../../img/hamburger.svg';
+import {Navbar, Nav} from 'react-bootstrap';
+// import ReactFlagsSelect from 'react-flags-select';
+ 
+//import css module
+import 'react-flags-select/css/react-flags-select.css';
+
 // import { connect } from 'react-redux';
 
 class Header extends Component{
@@ -39,14 +43,36 @@ class Header extends Component{
                 </Navbar.Brand>
                 <Navbar.Collapse className="order-3" id="basic-navbar-nav">
                     <Nav className="ml-auto">
+                        {/* <ReactFlagsSelect defaultCountry="US" showSelectedLabel={false}/> */}
                         <Nav.Link className="px-3 text-white" href="#Blog">Blog</Nav.Link>
                         <Nav.Link className="px-3 text-white text-nowrap" href="#Explore">Explore SriLanka</Nav.Link>
                         <Nav.Link className="px-3 text-white" href="#">SignIn</Nav.Link>
                         <Nav.Link className="btn inquire-btn px-3 text-black text-nowrap">Inquire Now</Nav.Link>
+                        {/* <Dropdown>
+                            <Dropdown.Toggle variant="success" id="dropdown-basic"> */}
+                                
+                            {/* </Dropdown.Toggle> */}
+
+                            {/* <Dropdown.Menu>
+                                <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
+                                <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
+                                <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown> */}
+                        {/* <Dropdown>
+                            <Dropdown.Toggle variant="success" id="dropdown-basic">
+                                Dropdown Button
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu aria-labelledby="dropdown09">
+                                <Dropdown.Item href="#fr"><span class="flag-icon flag-icon-fr"> </span>  French</Dropdown.Item>
+                                <Dropdown.Item href="#it"><span class="flag-icon flag-icon-it"> </span>  Italian</Dropdown.Item>
+                                <Dropdown.Item href="#ru"><span class="flag-icon flag-icon-ru"> </span>  Russian</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown> */}
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <img src={navIcon}/>
+                    <img src={navIcon} alt="nav icon"/>
                 </Navbar.Toggle>
             </Navbar>
 

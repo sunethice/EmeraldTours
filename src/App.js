@@ -1,13 +1,13 @@
-import React, { Component } from 'react';
-import Showcase from './components/Showcase';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Aboutus from './components/AboutUs';
-import Package from './components/Package';
-import Gallery from './components/Gallery';
-import Bespoke from './components/Bespoke';
-import OurTeam from './components/OurTeam';
-// import Testimonials from './components/Testimonials';
+import React from 'react';
+import Showcase from './components/ClientView/Showcase';
+import Header from './components/ClientView/Header';
+import Footer from './components/ClientView/Footer';
+import Aboutus from './components/ClientView/AboutUs';
+import Package from './components/ClientView/Package';
+import Gallery from './components/ClientView/Gallery';
+import Bespoke from './components/ClientView/Bespoke';
+import OurTeam from './components/ClientView/OurTeam';
+// import Testimonials from './components/ClientView/Testimonials';
 
 import './App.css';
 

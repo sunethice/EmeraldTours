@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../img/logo1.png';
-import aboutus from '../img/aboutus.jpg';
+import logo from '../../img/logo1.png';
+import aboutus from '../../img/aboutus.jpg';
 
 class Footer extends Component{
 
@@ -113,19 +113,19 @@ class Footer extends Component{
                                 <div class="row my-3 p-auto">
                                     <div class="col d-flex justify-content-center">
                                         {/* Facebook */}
-                                        <a class="fb-ic fa-lg mx-2">
+                                        <a class="fb-ic fa-lg mx-2" href="facebook.com">
                                             <i class="fab fa-facebook-f text-white"> </i>
                                         </a>
                                         {/* Twitter */}
-                                        <a class="tw-ic fa-lg mx-2">
+                                        <a class="tw-ic fa-lg mx-2" href="facebook.com">
                                             <i class="fab fa-twitter text-white"> </i>
                                         </a>
                                         {/* Instagram */}
-                                        <a class="ins-ic fa-lg mx-2">
+                                        <a class="ins-ic fa-lg mx-2" href="facebook.com">
                                             <i class="fab fa-instagram text-white"> </i>
                                         </a>
                                         {/* Pinterest */}
-                                        <a class="pin-ic fa-lg mx-2">
+                                        <a class="pin-ic fa-lg mx-2" href="facebook.com">
                                             <i class="fab fa-pinterest text-white"> </i>
                                         </a>
                                     </div>

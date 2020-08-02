@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import bespoke_img from '../img/bespoke.jpg';
+import bespoke_img from '../../img/bespoke.jpg';
 
 class Bespoke extends Component{
 
@@ -9,7 +9,7 @@ class Bespoke extends Component{
                 <div class="mt-5 w-100 text-white" style={{backgroundColor: '#252525'}}>
                     <div class="row no-gutters">
                         <div class="col-12 col-sm-6">
-                            <img src={bespoke_img} href="" style={{maxWidth: '100%'}}/>
+                            <img src={bespoke_img} href="" alt="bespoke" style={{maxWidth: '100%'}}/>
                         </div>
                         <div class="col-12 col-sm-6 p-5">
                             <div class="h3 text-center">Bespoke Tours</div>

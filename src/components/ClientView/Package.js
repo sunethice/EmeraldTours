@@ -1,6 +1,6 @@
 import React,{ Component } from "react";
-import pkg1 from '../img/tour-package1.jpg';
-import pkg2 from '../img/tour-package1.jpg';
+import pkg1 from '../../img/tour-package1.jpg';
+import pkg2 from '../../img/tour-package1.jpg';
 
 // import "owl.carousel/dist/assets/owl.carousel.css";
 // import "owl.carousel/dist/assets/owl.theme.default.css";

@@ -1,8 +1,8 @@
 import React, { Component } from  'react';
 import Carousel from 'react-bootstrap/Carousel';
-import carousel1 from '../img/carousel-img1.jpg';
-import carousel2 from '../img/carousel-img2.jpg';
-import carousel3 from '../img/carousel-img3.jpg';
+import carousel1 from '../../img/carousel-img1.jpg';
+import carousel2 from '../../img/carousel-img2.jpg';
+import carousel3 from '../../img/carousel-img3.jpg';
 
 class Showcase extends Component{
     render() {
